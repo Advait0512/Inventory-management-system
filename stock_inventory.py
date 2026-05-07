@@ -4,7 +4,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="admin123",
+    password="Enter_your_Password",# its generally 12345678 or admin123
     database="inventory_db"
 )
 
